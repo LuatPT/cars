@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
-MYSQL_URL = "postgresql+psycopg2://postgres:pass@localhost:5432/cars_db"
+MYSQL_URL = "postgresql+psycopg2://postgres:satthu1hits@localhost:5432/cars_db"
 POOL_SIZE = 20
 POOL_RECYCLE = 3600
 POOL_TIMEOUT = 15
