@@ -1,0 +1,17 @@
+#text-tranform-none{
+  text-transform: none;
+}
+
+.search-box > div{
+  background-color: #F5F5F5;
+  border-radius: 2rem;
+}
+
+.select-box .MuiInputBase-colorPrimary{
+  margin-left: 5px;
+  max-height: 40px;
+}
+
+.select-box .MuiInputLabel-formControl{
+  top: -10px;
+}
