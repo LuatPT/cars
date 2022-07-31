@@ -16,12 +16,6 @@ import AddIcon from '@mui/icons-material/Add';
 const drawerWidth = 240;
 
 const useStyles = makeStyles((theme)=>({
-  list: {
-    width: 250,
-  },
-  fullList: {
-    width: "auto",
-  },
   paper: {
     background: "red",
   },

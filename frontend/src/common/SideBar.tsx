@@ -18,9 +18,6 @@ const useStyles = makeStyles((theme)=>({
   list: {
     width: 250,
   },
-  fullList: {
-    width: "auto",
-  },
   paper: {
     background: "red",
   },
