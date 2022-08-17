@@ -72,7 +72,7 @@ export default function BrandList(props:any) {
             onChange={handleChange}
             classes={{icon:classes.icon, iconOpen:classes.iconOpen,select:classes.selectSelect}}
           >
-            <MenuItem value={10}>All</MenuItem>
+            <MenuItem value={10}>All brand</MenuItem>
             <MenuItem value={20}>Last Updated</MenuItem>
             <MenuItem value={30}>Brand Name</MenuItem>
             <MenuItem value={30}>Number Of Models</MenuItem>
