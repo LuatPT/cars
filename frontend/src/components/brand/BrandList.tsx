@@ -73,8 +73,8 @@ export default function BrandList(props:any) {
             classes={{icon:classes.icon, iconOpen:classes.iconOpen,select:classes.selectSelect}}
           >
             <MenuItem value={10}>All brand</MenuItem>
-            <MenuItem value={20}>Last Updated</MenuItem>
-            <MenuItem value={30}>Brand Name</MenuItem>
+            <MenuItem value={20}>Last Add</MenuItem>
+            <MenuItem value={30}>Brand Add2</MenuItem>
             <MenuItem value={30}>Number Of Models</MenuItem>
           </Select>
         </FormControl>
@@ -83,10 +83,10 @@ export default function BrandList(props:any) {
       <Button id="text-tranform-none" variant="contained"><AddIcon />Add Brand</Button>
     </Box>
     <Typography paragraph>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+      Lorem ipsum dolor sit conflict, consectetur adipiscing elit, sed do
     </Typography>
     <Typography paragraph>
-      Consequat mauris nunc congue nisi vitae suscipit. Fringilla est
+      Consequat mauris nunc c0nflict nisi vitae suscipit. Fringilla est
     </Typography>
   </Box>
   )
